@@ -1,0 +1,51 @@
+.earning {
+  height: 50px;
+  width: 230px;
+  background-color: rgb(155, 228, 237);
+  border-radius: 20px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  margin-left: 20px;
+}
+.heading-earning {
+  text-align: center;
+  color: white;
+}
+.internal {
+  display: flex;
+  background-color: rgb(155, 228, 237);
+  text-align: center;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+.internal1 {
+  margin-right: 15px;
+}
+.internal2 {
+  margin-left: 15px;
+}
+hr {
+  margin: 0%;
+}
+h4 {
+  margin: 0%;
+}
+.withdraw-btn-container {
+  background-color: lightpink;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.withdraw-btn {
+  background-color: rgb(155, 228, 237);
+  border: none;
+  color: white;
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+}
+.withdraw-btn:hover {
+  cursor: pointer;
+}

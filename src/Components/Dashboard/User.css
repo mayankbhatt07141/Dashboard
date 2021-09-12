@@ -1,0 +1,93 @@
+.Container {
+  background-color: aliceblue;
+  width: 20%;
+  border-radius: 25px;
+}
+.chat-btn:hover {
+  color: gray;
+  cursor: pointer;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-welcome {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.language {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+.rounded-circle {
+  margin: 5px;
+}
+.schedule-time {
+  background-color: lightpink;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+  color: white;
+}
+.time {
+  display: inline-block;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.image {
+  height: 10%;
+  background-color: white;
+  border-radius: 50px;
+}
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  padding-left: 40px;
+}
+.button {
+  width: 100%;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #1c89ff;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  margin-bottom: 2px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  border-color: #fff;
+  transition: all 0.1s ease-in-out;
+}
+.join {
+  padding-top: "12px";
+  padding-bottom: 15px;
+}
+h6 {
+  margin-top: 15%;
+  margin-bottom: 15px;
+}

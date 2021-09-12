@@ -1,0 +1,74 @@
+.bottom-container {
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 15px;
+  height: 320px;
+}
+.charts1 {
+  position: relative;
+  width: 750px;
+  display: flex;
+  /* overflow: hidden; */
+}
+.line {
+  height: 200px !important;
+}
+.labelss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 750px;
+  margin-top: 50px;
+}
+.first {
+  background-color: aliceblue;
+  border-radius: 20px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px 2px lightgray inset;
+  height: 50px;
+}
+h4 {
+  font-weight: 900;
+}
+.scndbtn {
+  background-color: rgb(155, 228, 237);
+  border-radius: 20px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px 2px lightgray;
+  height: 50px;
+  color: white;
+}
+.btn {
+  padding: 0%;
+  margin: 0%;
+  border: none;
+  font-weight: 900;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.first:hover {
+  background-color: rgb(155, 228, 237);
+  color: white;
+  box-shadow: 2px 2px 2px 2px lightgray;
+}
+.drop-down {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+.dropdown {
+  border: 1px solid red;
+  width: 100px;
+  text-align: center;
+  border-radius: 20px;
+}

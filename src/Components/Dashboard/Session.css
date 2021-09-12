@@ -1,0 +1,43 @@
+.session-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+  /* height: 550px;
+  width: 250px; */
+}
+.heading-session {
+  background-color: rgb(155, 228, 237);
+  color: white;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.table {
+  display: flex;
+  text-align: center;
+  background-color: white;
+  width: 250px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 120px;
+  justify-content: center;
+}
+
+.Schedule {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.upcoming {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.cancled {
+  margin-top: 30px;
+}
